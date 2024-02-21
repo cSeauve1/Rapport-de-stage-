@@ -46,9 +46,12 @@ body {
                 justify-content: space-around;
             }
 
+            html {
+                background:#fff3d9;
+            }
+
             body {
                 background-size: contain;
-                background:#fff3d9;;
                 background-repeat: no-repeat;
                 background-image: url('50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg') ;
             }
