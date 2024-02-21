@@ -45,6 +45,7 @@ body {
             }
 
             body {
+                background-size: contain;
                 background-color:#fff1e6;
                 background-repeat: no-repeat;
                 background-image: url('50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg') ;
