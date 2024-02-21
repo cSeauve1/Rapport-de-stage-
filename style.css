@@ -1,0 +1,57 @@
+body {
+                font-family: "Caveat", cursive;
+                font-optical-sizing: auto;
+                font-weight: <weight>;
+                font-style: normal;
+            }
+
+            h1 {
+                text-shadow: 5px 7px 0px rgba(0,0,0,0.1);
+                text-align: center;
+                border: 3px solid black;
+                border-radius: 10px;
+                font-size: 45px;
+                color:blue;
+            }
+            h2 {
+                text-align: left;
+                text-decoration: underline;
+                font-size: 30px;
+                color:blueviolet;
+            }
+            p {
+                font-size: 20px;
+            }
+            a:hover{
+                color:red;
+            }
+            a:active{
+                color: blue;
+            }
+            a{
+                font-size: 20px;
+            }
+
+            .flex{
+                display:flex;
+            }
+
+            .justify-content-end {
+                justify-content: flex-end;
+            }
+            
+            .justify-content-space-around {
+                justify-content: space-around;
+            }
+
+            body {
+                background-color: #FDEDEC ;
+                background-repeat: no-repeat;
+                background-image: url('50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg') ;
+            }
+            h3{
+                text-decoration: underline;
+            }
+            .container{
+                max-width: 1000px;
+            }
