@@ -49,11 +49,21 @@ body {
             html {
                 background:#fff3d9;
             }
-
             
             h3{
                 text-decoration: underline;
             }
             .container{
                 max-width: 1000px;
+            }
+            table{
+                border-collapse: collapse;
+            }
+            td{
+                padding: 2px;
+                border: 1px solid black;
+            }
+            th{
+                padding: 2px;
+                border: solid black;
             }
