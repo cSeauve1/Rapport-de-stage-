@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurateur PC</title>
+    <link href="configpc.css"rel="stylesheet"
+</head>
+<body>
+    <h1>Configurateur PC</h1>
+    <form action="/submit" method="post">
+        <label for="processeur">Processeur :</label><br>
+        <select id="processeur" name="processeur">
+            <option value="i3">Intel Core i3-8100</option>
+                <option value="i3">Intel Core i3-8300</option>Intel Core i3-8100T
+                <option value="i3">Intel Core i3-8300T</option>
+                <option value="i3">Intel Core i3-8350K</option>
+                <option value="i3">Intel Core i3-9100</option>
+                <option value="i3">Intel Core i3-9100T</option>
+                <option value="i3">Intel Core i3-9350KF</option>
+                <option value="i3">Intel Core i3-9300</option>
+                <option value="i3"> Intel Core i3-9300T</option>
+                <option value="i3">Intel Core i3-9320</option>
+                <option value="i3">Intel Core i3-9320T</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value="i3"></option>
+                
+                Intel Core i3-10100
+                Intel Core i3-10100F
+                Intel Core i3-10100T
+                Intel Core i3-10105
+                Intel Core i3-10105F
+Intel Core i3-10105T
+Intel Core i3-10300
+Intel Core i3-10300T
+Intel Core i3-10305
+Intel Core i3-10305F
+Intel Core i3-10305T
+Intel Core i3-10320
+Intel Core i3-10320F
+Intel Core i3-10320T</option>
+            <option value="i5">Intel Core i5</option>
+            <option value="i7">Intel Core i7</option>
+            <option value="ryzen3">AMD Ryzen 3</option>
+            <option value="ryzen5">AMD Ryzen 5</option>
+            <option value="ryzen7">AMD Ryzen 7</option>
+        </select><br>
+        
+        <label for="carte_graphique">Carte graphique :</label><br>
+        <select id="carte_graphique" name="carte_graphique">
+            <option value="gtx1650">NVIDIA GeForce GTX 1650</option>
+            <option value="rtx3060">NVIDIA GeForce RTX 3060</option>
+            <option value="rx5700">AMD Radeon RX 5700</option>
+            <option value="rx6800">AMD Radeon RX 6800</option>
+        </select><br>
+        
+        <label for="stockage">Stockage :</label><br>
+        <input type="radio" id="ssd" name="stockage" value="ssd">
+        <label for="ssd">SSD</label>
+        <input type="radio" id="hdd" name="stockage" value="hdd">
+        <label for="hdd">HDD</label><br>
+        
+        <label for="ram">Mémoire RAM :</label><br>
+        <select id="ram" name="ram">
+            <option value="8go">8 Go</option>
+            <option value="16go">16 Go</option>
+            <option value="32go">32 Go</option>
+            <option value="64go">64 Go</option>
+        </select><br>
+        
+        <label for="ventilateur">Ventilateur :</label><br>
+        <input type="checkbox" id="ventilateur" name="ventilateur" value="ventilateur">
+        <label for="ventilateur">Ventilateur</label><br>
+        
+        <label for="refroidissement">Système de refroidissement :</label><br>
+        <input type="radio" id="air" name="refroidissement" value="air">
+        <label for="air">Air</label>
+        <input type="radio" id="liquide" name="refroidissement" value="liquide">
+        <label for="liquide">Liquide</label><br>
+       
+    <head>
+        <body>
+           <input type="submit" value="Valider la configuration">
+            </form>
+        
+            <!-- Balise pour afficher un message ou rediriger après avoir validé la configuration -->
+            <div id="message"></div>
+        
+            <script>
+                // Script pour afficher un message après avoir validé la configuration
+                const form = document.querySelector('form');
+                const messageDiv = document.getElementById('message');
+        
+                form.addEventListener('submit', function(event) {
+                    event.preventDefault(); // Empêche le formulaire de se soumettre normalement
+        
+                    // Vous pouvez ajouter du code pour traiter les données du formulaire ici
+        
+                    // Affichage d'un message de confirmation
+                    messageDiv.textContent = "Configuration validée avec succès !";
+        
+                    // Vous pouvez également rediriger l'utilisateur vers une autre page après la validation
+                    // window.location.href = 'page_de_confirmation.html';
+                });
+            </script>
+        </body>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </form>
+</body>
+</html>
